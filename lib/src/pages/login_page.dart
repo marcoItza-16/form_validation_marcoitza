@@ -55,7 +55,7 @@ class LoginPage extends StatelessWidget {
                   width: double.infinity,
                 ),
                 Text(
-                  'Marco Itzaa',
+                  'Marco Itza',
                   style: TextStyle(color: Colors.white, fontSize: 25.0),
                 )
               ],
@@ -76,6 +76,7 @@ class LoginPage extends StatelessWidget {
               child: Container(
             height: 240.0,
           )),
+          //Pantalla para registrar usuarios
           Container(
             width: size.width * 0.85,
             margin: EdgeInsets.symmetric(vertical: 30.0),
