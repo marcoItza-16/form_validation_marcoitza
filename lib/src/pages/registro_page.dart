@@ -19,6 +19,7 @@ final usuarioProvider = UsuarioProvider();
     ));
   }
  //Login - Verificar usuario y contraseña
+//Grabar Token en el storage del dispositivo
 
   Widget _crearFondo(BuildContext context) {
     final size = MediaQuery.of(context).size;
