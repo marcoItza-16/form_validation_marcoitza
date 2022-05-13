@@ -77,6 +77,7 @@ class LoginPage extends StatelessWidget {
             height: 240.0,
           )),
           //Pantalla para registrar usuarios
+          //Usuario Provider - Petición para crear cuentas
           Container(
             width: size.width * 0.85,
             margin: EdgeInsets.symmetric(vertical: 30.0),
