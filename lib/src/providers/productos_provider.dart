@@ -23,6 +23,7 @@ class ProductosProvider {
     return true;
   }
   //Mostrar alerta cuando el usuario es incorrecto
+ // Usar token para validar peticiones en Firebase
 
   Future<bool> editarProducto(ProductoModel producto) async {
     final url = '$_url/productos/${producto.id}.json?auth=${_prefs.token}';
