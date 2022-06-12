@@ -13,6 +13,7 @@ class ProductoModel {
     this.disponible = true,
     this.fotoUrl,
   });
+//No diga mamada merijen
 
   String? id;
   String titulo;
